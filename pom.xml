@@ -128,10 +128,11 @@
     </distributionManagement>
 
     <repositories>
+
         <repository>
-            <id>alimaven</id>
-            <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <id>maven</id>
+            <name>maven</name>
+            <url>http://mvnrepository.com/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
