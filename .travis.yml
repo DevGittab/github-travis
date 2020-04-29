@@ -22,12 +22,12 @@ install: true
 
 script: "./mvnw clean package -U"
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: master
+#deploy:
+#  provider: pages
+#  skip_cleanup: true
+#  github_token: $GITHUB_TOKEN
+#  on:
+#    branch: master
 
 #deploy:
 #  - provider: script
