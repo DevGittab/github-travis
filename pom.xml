@@ -121,8 +121,9 @@
     
     <distributionManagement>
         <repository>
-            <id>alimaven</id>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <id>github</id>
+            <name>github Gittab-net apache maven packages</name>
+            <url>https://maven.pkg.github.com/Gittab-net/github-travis</url>
         </repository>
     </distributionManagement>
 
