@@ -1,5 +1,5 @@
-# github-travis
 [![Build Status](https://travis-ci.com/Gittab-net/github-travis.svg?branch=master)](https://travis-ci.com/Gittab-net/github-travis)
+# github-travis
 
 ## Format
 ```shell
