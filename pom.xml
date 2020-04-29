@@ -125,10 +125,26 @@
             <name>github Gittab-net apache maven packages</name>
             <url>https://maven.pkg.github.com/Gittab-net/github-travis</url>
         </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <name>github Gittab-net apache maven packages</name>
+            <url>https://maven.pkg.github.com/Gittab-net/github-travis</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <repositories>
 
+        <repository>
+            <id>github</id>
+            <name>github packages</name>
+            <url>https://maven.pkg.github.com/Gittab-net/github-travis</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>central-repos</id>
             <name>Central Repository</name>

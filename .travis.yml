@@ -18,9 +18,9 @@ before_install:
 
 install: true
 
-#script: "cp .travis.settings.xml $HOME/.m2/settings.xml && ./mvnw clean package -U"
+script: "cp .travis.settings.xml $HOME/.m2/settings.xml && ./mvnw clean package -U"
 
-script: "./mvnw clean package -U"
+# script: "./mvnw clean package -U"
 
 #deploy:
 #  provider: pages
@@ -29,12 +29,12 @@ script: "./mvnw clean package -U"
 #  on:
 #    branch: master
 
-#deploy:
-#  - provider: script
-#    skip_cleanup: true
-#    script: "bash deploy.sh"
-#    on:
-#      tags: true
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: "bash deploy.sh"
+    on:
+      tags: true
 
 
 
