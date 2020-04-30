@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Gittab-net/github-travis.svg?branch=master)](https://travis-ci.com/Gittab-net/github-travis)
+[![Build Status](https://travis-ci.com/DevGittab/github-travis.svg?branch=master)](https://travis-ci.com/DevGittab/github-travis)
 # github-travis
 
 ## Format
