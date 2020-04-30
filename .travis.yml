@@ -14,7 +14,7 @@ cache:
 
 before_install:
   - chmod +x ./mvnw
-#  - chmod +x ./deployment/deploy.sh
+  - chmod +x ./deploy.sh
 
 install: true
 
