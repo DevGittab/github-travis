@@ -40,8 +40,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        
         <!--添加热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,8 +47,14 @@
             <optional>true</optional>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>net.gittab.github-travis</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0.0.BUILD-SNAPSHOT</version>
+        </dependency>
         
-            </dependencies>
+    </dependencies>
     <build>
         <finalName>app</finalName>
         <plugins>
