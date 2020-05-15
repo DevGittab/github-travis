@@ -26,8 +26,11 @@
         <disable.checks>false</disable.checks>
     </properties>
     <modules>
+		<module>domain</module>
+		<module>api</module>
         <module>service</module>
         <module>common</module>
+<!--		<module>test</module>-->
     </modules>
 
     <dependencyManagement>
