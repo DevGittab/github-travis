@@ -3,6 +3,13 @@ spring:
     name: "github-travis"
 
 feign:
+  client:
+    config:
+      connectTimeout: 5000
+      readTimeout: 5000
+      loggerLevel: basic
+      requestInterceptors: net.gittab.githubtravis.feign.interceptor.FeignRequestInterceptor
+
   hystrix:
     enabled: true
 
