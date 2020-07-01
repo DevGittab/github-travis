@@ -1,4 +1,4 @@
-package net.gittab.githubtravis.test.collection;
+package net.gittab.test.collection;
 
 import java.io.Serializable;
 import java.util.AbstractList;

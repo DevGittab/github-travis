@@ -1,4 +1,4 @@
-package net.gittab.githubtravis.test.pattern;
+package net.gittab.test.pattern;
 
 /**
  * ThreadSafeSingleton.

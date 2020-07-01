@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import net.gittab.githubtravis.constant.AuthConstant;
@@ -99,8 +100,8 @@ public class AuthFilter implements Filter {
 
 		// print request body params
 		if (!StringUtils.isEmpty(customRequestWrapper.getBody())) {
-			log.info("request body params is {}", JSONObject
-					.parseObject(customRequestWrapper.getBody()).toJSONString());
+			Object obj = JSONObject.parse(customRequestWrapper.getBody());
+			log.info("request body params is {}", JSON.toJSONString(obj));
 		}
 
 		ContestThreadLocal.set(accessTokenInfo);

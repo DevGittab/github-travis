@@ -1,4 +1,4 @@
-package net.gittab.githubtravis.test.aqs;
+package net.gittab.test.aqs;
 
 /**
  * AqsTest.
