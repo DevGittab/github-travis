@@ -15,6 +15,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+            <version>2.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>net.gittab.github-travis</groupId>
             <artifactId>common</artifactId>
             <version>1.0.0.BUILD-SNAPSHOT</version>
